@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply text-[16px] leading-[150%];
+  }
   h1 {
     @apply text-[32px] font-bold leading-[150%];
   }
